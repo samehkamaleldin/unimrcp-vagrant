@@ -23,5 +23,5 @@ Repository's structure is defined as the following
 ```
 ## Contribution
 Please feel free to fork, edit and pull request.
-
-<br>Copyright (c) 2015 Sameh Kamal. Licensed under the MIT license.
+<br>
+> Copyright (c) 2015 Sameh Kamal. Licensed under the MIT license.
