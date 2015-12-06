@@ -55,3 +55,9 @@ cd ..
 printf "# leave [tmp] directory\n\n"
 cd ..
 printf "> remove tmp directory\n\n"
+rm -rf tmp
+printf "> copy environment file"
+sudo cp /vagrant/provision/environment  /etc/environment
+# export LD_LIBRARY_PTH for first time boot to work, next it will be loaded
+# from environment file
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib" > .bashrc
