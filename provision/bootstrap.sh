@@ -56,6 +56,8 @@ printf "# leave [tmp] directory\n\n"
 cd ..
 printf "> remove tmp directory\n\n"
 rm -rf tmp
+printf "> copy unimrcp server configuration file"
+sudo cp /vagrant/conf/unimrcpserver.xml /usr/local/unimrcp/conf/unimrcpserver.xml
 printf "> copy environment file"
 sudo cp /vagrant/provision/environment  /etc/environment
 # export LD_LIBRARY_PTH for first time boot to work, next it will be loaded
