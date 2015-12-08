@@ -11,7 +11,6 @@
 
     <!-- IP address can also be specified explicitly. -->
     <ip>172.16.202.196</ip>
-
     <ext-ip>172.16.202.196</ext-ip>
   </properties>
 
@@ -89,11 +88,10 @@
 
     <!-- Factory of plugins (MRCP engines) -->
     <plugin-factory>
-      <engine id="ilive-1" name="ilive" enable="true"/>
-      <!-- <engine id="Demo-Synth-1" name="demosynth" enable="true"/>
-      <engine id="Demo-Recog-1" name="demorecog" enable="true"/>
+      <engine id="Demo-Synth-1"    name="demosynth"    enable="true"/>
+      <engine id="Demo-Recog-1"    name="demorecog"    enable="true"/>
       <engine id="Demo-Verifier-1" name="demoverifier" enable="true"/>
-      <engine id="Recorder-1" name="mrcprecorder" enable="true"/> -->
+      <engine id="Recorder-1"      name="mrcprecorder" enable="true"/>
 
       <!-- Engines may have additional named and generic params
       <engine id="Your-Engine-1" name="yourengine" enable="false">
